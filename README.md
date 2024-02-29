@@ -1,4 +1,5 @@
-![Capa](./.github/cover.png)
+![Capa](https://github.com/Snarloff/nlw-expert-node/assets/46792575/bf083841-c1ae-431b-a0db-93c641fab4b6)
+
 
 # NLW Expert (Node.js)
 
@@ -6,16 +7,16 @@ Um sistema de votação em tempo real onde os usuários podem criar uma enquete 
 
 ## Requisitos
 
-- Docker;
-- Node.js;
+- Docker
+- Node.js
 
 ## Configuração
 
-- Clone o repositório;
-- Instale as dependências (`npm install`);
-- Configure o PostgreSQL e o Redis (`docker compose up -d`);
-- Copie o arquivo `.env.example` (`cp .env.example .env`);
-- Execute a aplicação (`npm run dev`);
+- Clone o repositório
+- Instale as dependências (`npm install`)
+- Configure o PostgreSQL e o Redis (`docker compose up -d`)
+- Copie o arquivo `.env.example` (`cp .env.example .env`)
+- Execute a aplicação (`npm run dev`)
 
 ## HTTP
 
