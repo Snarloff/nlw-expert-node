@@ -16,7 +16,6 @@ Um sistema de votação em tempo real onde os usuários podem criar uma enquete 
 - Configure o PostgreSQL e o Redis (`docker compose up -d`);
 - Copie o arquivo `.env.example` (`cp .env.example .env`);
 - Execute a aplicação (`npm run dev`);
-- Teste! (Recomendo testar com [Hoppscotch](https://hoppscotch.io/)).
 
 ## HTTP
 
@@ -61,22 +60,22 @@ Retorne dados de uma única enquete.
 			{
 				"id": "4af3fca1-91dc-4c2d-b6aa-897ad5042c84",
 				"title": "JavaScript",
-				"pontuação": 1
+				"score": 1
 			},
 			{
 				"id": "780b8e25-a40e-4301-ab32-77ebf8c79da8",
 				"title": "Java",
-				"pontuação": 0
+				"score": 0
 			},
 			{
 				"id": "539fa272-152b-478f-9f53-8472cddb7491",
 				"title": "PHP",
-				"pontuação": 0
+				"score": 0
 			},
 			{
 				"id": "ca1d4af3-347a-4d77-b08b-528b181fe80e",
 				"title": "C#",
-				"pontuação": 0
+				"score": 0
 			}
 		]
 	}
